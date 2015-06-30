@@ -1,0 +1,17 @@
+nav a {
+  padding: 10px;
+  font-size: 20px; }
+
+.container {
+  width: 600px; }
+
+header {
+  width: 100%;
+  background-color: #999E9D;
+  padding: 25px; }
+
+footer {
+  width: 100%;
+  background-color: #272822;
+  color: white;
+  padding: 25px; }
