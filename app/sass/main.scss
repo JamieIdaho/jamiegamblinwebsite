@@ -108,14 +108,17 @@ nav {
 
 .contactText {
 
-  margin-top: 450px;
+  margin-top: 625px;
   padding-left: 25px;
+  @include outer-container;
 
   a {
   text-decoration: none;
   color: white;
-  font-family: $roboto;
+  font-family: $headerFont;
   font-size: 20px;
+  display: inline-block;
+
   }
 
 
@@ -123,6 +126,85 @@ nav {
     color: white;
     font-family: $headerFont;
     font-size: 50px;
+  }
+
+  .email {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  .email::before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: '\f003';
+    color: $coral;
+    left: 0;
+    font-size: 25px;
+  }
+
+  .github {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  .github::before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: '\f113';
+    color: $coral;
+    left: 0;
+    font-size: 25px;
+  }
+
+  .linkedin {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  .linkedin::before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: '\f08c';
+    color: $coral;
+    left: 0;
+    font-size: 25px;
+  }
+
+  .twitter {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  .twitter::before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: '\f099';
+    color: $coral;
+    left: 0;
+    font-size: 25px;
+  }
+
+  .blog {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+  }
+
+  .blog::before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: '\f23a';
+    color: $coral;
+    left: 0;
+    font-size: 25px;
   }
 }
 

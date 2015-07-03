@@ -95,17 +95,84 @@ nav {
   margin-right: 25px; }
 
 .contactText {
-  margin-top: 450px;
-  padding-left: 25px; }
+  margin-top: 625px;
+  padding-left: 25px;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .contactText::after {
+    clear: both;
+    content: "";
+    display: table; }
   .contactText a {
     text-decoration: none;
     color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px; }
+    font-family: "Cinzel", serif;
+    font-size: 20px;
+    display: inline-block; }
   .contactText .contactMe {
     color: white;
     font-family: "Cinzel", serif;
     font-size: 50px; }
+  .contactText .email {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+    margin-right: 30px; }
+  .contactText .email::before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: '\f003';
+    color: #D05F5C;
+    left: 0;
+    font-size: 25px; }
+  .contactText .github {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+    margin-right: 30px; }
+  .contactText .github::before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: '\f113';
+    color: #D05F5C;
+    left: 0;
+    font-size: 25px; }
+  .contactText .linkedin {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+    margin-right: 30px; }
+  .contactText .linkedin::before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: '\f08c';
+    color: #D05F5C;
+    left: 0;
+    font-size: 25px; }
+  .contactText .twitter {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+    margin-right: 30px; }
+  .contactText .twitter::before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: '\f099';
+    color: #D05F5C;
+    left: 0;
+    font-size: 25px; }
+  .contactText .blog {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block; }
+  .contactText .blog::before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: '\f23a';
+    color: #D05F5C;
+    left: 0;
+    font-size: 25px; }
 
 .parallax-container {
   height: 700px; }
