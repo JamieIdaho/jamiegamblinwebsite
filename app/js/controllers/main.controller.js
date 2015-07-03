@@ -4,7 +4,7 @@
 
   angular.module('JamieWeb')
 
-  .controller('MainController', ['$scope', '$http', '$location',
+  .controller('MainControl', ['$scope', '$http', '$location',
       function ($scope, $http, $location) {
 
         setTimeout( function () {
