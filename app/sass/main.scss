@@ -3,6 +3,7 @@
 
 $cursiveFont:'Lobster', cursive;
 $roboto:'Roboto', sans-serif;
+$headerFont:'Cinzel', serif;
 $coral: #D05F5C;
 $peach: #DAA766;
 $bluegreen: #78A5A3;
@@ -10,12 +11,14 @@ $gray: #43485B;
 
 
 nav {
-    background-color: $gray;
-    font-family: $cursiveFont;
+    background-color: $bluegreen;
+    font-family: $headerFont;
     font-size: 30px;
   a {
     padding: 10px;
     font-size: 24px;
+    text-shadow: 3px 3px 5px $gray;
+
   }
 
   .navText {
@@ -30,31 +33,35 @@ nav {
 }
 
 .spanTop {
-  color: $bluegreen;
-  font-family: $cursiveFont;
-  font-size: 60px;
-  padding-left: 5px;
+  color: white;
+  font-family: $headerFont;
+  font-size: 40px;
+  padding-left: 15px;
   display: block;
   margin-bottom: 15px;
   display: inline-block;
   text-shadow: 3px 3px 5px $gray;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .spanBottom {
-  color: $bluegreen;
-  font-family: $cursiveFont;
-  font-size: 60px;
+  color: white;
+  font-family: $headerFont;
+  font-size: 40px;
   padding-left: 5px;
   margin-top: 15px;
   display: inline-block;
   text-shadow: 3px 3px 5px $gray;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .worksection {
   background-color: white;
   color: $peach;
   padding-left: 50px;
-  font-family: $cursiveFont;
+  font-family: $headerFont;
 
   p {
     color: white;
@@ -66,7 +73,7 @@ nav {
   background-color: white;
   color: $coral;
   padding-left: 50px;
-  font-family: $cursiveFont;
+  font-family: $headerFont;
 }
 
 .imageBorder {
@@ -99,17 +106,30 @@ nav {
   margin-right: 25px;
 }
 
+.contactText {
+
+  margin-top: 450px;
+  padding-left: 25px;
+
+  a {
+  text-decoration: none;
+  color: white;
+  font-family: $roboto;
+  font-size: 20px;
+  }
+
+
+  .contactMe {
+    color: white;
+    font-family: $headerFont;
+    font-size: 50px;
+  }
+}
+
 .parallax-container {
   height: 700px;
 }
 
-
-header {
-  width: 100%;
-  background-color: white;
-  padding: 25px;
-
-}
 
 footer {
   width: 100%;
