@@ -70,15 +70,19 @@ nav {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 74.41059%;
-  margin-top: 25px; }
+  width: 74.41059%; }
   .aboutInfo:last-child {
     margin-right: 0; }
+  .aboutInfo p {
+    float: left;
+    width: 65%;
+    margin-top: 50px; }
 
 .aboutInfo img {
   object-fit: cover;
   float: right;
-  zoom: 125%; }
+  zoom: 125%;
+  margin-right: 25px; }
 
 header {
   width: 100%;

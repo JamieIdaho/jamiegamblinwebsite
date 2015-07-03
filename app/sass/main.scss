@@ -77,13 +77,19 @@ nav {
   font-family: $roboto;
   display: inline-block;
   @include span-columns(9);
-  margin-top: 25px;
+
+  p {
+    float: left;
+    width: 65%;
+    margin-top: 50px;
+  }
 }
 
 .aboutInfo img {
   object-fit: cover;
   float: right;
   zoom: 125%;
+  margin-right: 25px;
 }
 
 
