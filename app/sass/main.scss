@@ -2,9 +2,15 @@
 @import "neat/neat";
 
 $cursiveFont:'Lobster', cursive;
+$roboto:'Roboto', sans-serif;
+$coral: #D05F5C;
+$peach: #DAA766;
+$bluegreen: #78A5A3;
+$gray: #43485B;
+
 
 nav {
-    background-color: #272822;
+    background-color: $gray;
     font-family: $cursiveFont;
     font-size: 30px;
   a {
@@ -15,60 +21,82 @@ nav {
 
 .container {
   width: 100%;
-  //overflow: hidden;
+  overflow: hidden;
 }
 
-// .parallax-container {
-//   opacity: 0.6;
-//   // margin: 0;
-// }
-
-  // .side {
-  // @include span-columns(3);
-  // @include omega();
-  // height: 200px;
-  // background-color: red;
-  // float: left;
-  // position: relative
-  // }
-
-  // .bottomsideright {
-  //   @include span-columns(2.5);
-  //   @include omega();
-  //   background-color: black;
-  //   height: 100px;
-  //   position: absolute;
-  // }
-
-
-
-    .spanTop {
-    color: white;
-    font-family: $cursiveFont;
-    font-size: 54px;
-    padding-left: 5px;
-    display: block;
-    margin-bottom: 15px;
+.spanTop {
+  color: $bluegreen;
+  font-family: $cursiveFont;
+  font-size: 54px;
+  padding-left: 5px;
+  display: block;
+  margin-bottom: 15px;
+  display: inline-block;
     }
 
-    .spanBottom {
+.spanBottom {
+  color: $bluegreen;
+  font-family: $cursiveFont;
+  font-size: 54px;
+  padding-left: 5px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.worksection {
+  background-color: white;
+  color: $peach;
+  padding-left: 50px;
+  font-family: $cursiveFont;
+
+  p {
     color: white;
-    font-family: $cursiveFont;
-    font-size: 54px;
-    padding-left: 5px;
-    margin-top: 15px;
-    }
+    font-family: $roboto;
+  }
+}
+
+.aboutsection {
+  background-color: white;
+  color: $coral;
+  padding-left: 50px;
+  font-family: $cursiveFont;
+}
+
+.imageBorder {
+  display: inline-block;
+  float: left;
+  @include span-columns(3);
+}
+
+.imageBorder img {
+  object-fit: cover;
+  zoom: 125%;
+}
+
+.aboutInfo {
+  font-family: $roboto;
+  display: inline-block;
+  @include span-columns(9);
+  margin-top: 25px;
+}
+
+.aboutInfo img {
+  object-fit: cover;
+  float: right;
+  zoom: 125%;
+}
 
 
 header {
   width: 100%;
-  background-color: #999E9D;
+  background-color: white;
   padding: 25px;
+
 }
 
 footer {
   width: 100%;
-  background-color: #272822;
+  background-color: $gray;
   color: white;
   padding: 25px;
 }
