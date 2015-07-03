@@ -17,6 +17,11 @@ nav {
     padding: 10px;
     font-size: 24px;
   }
+
+  .navText {
+    float: right;
+    margin-right: 25px;
+  }
 }
 
 .container {
@@ -27,20 +32,22 @@ nav {
 .spanTop {
   color: $bluegreen;
   font-family: $cursiveFont;
-  font-size: 54px;
+  font-size: 60px;
   padding-left: 5px;
   display: block;
   margin-bottom: 15px;
   display: inline-block;
-    }
+  text-shadow: 3px 3px 5px $gray;
+}
 
 .spanBottom {
   color: $bluegreen;
   font-family: $cursiveFont;
-  font-size: 54px;
+  font-size: 60px;
   padding-left: 5px;
   margin-top: 15px;
   display: inline-block;
+  text-shadow: 3px 3px 5px $gray;
 }
 
 .worksection {
@@ -90,6 +97,10 @@ nav {
   float: right;
   zoom: 125%;
   margin-right: 25px;
+}
+
+.parallax-container {
+  height: 700px;
 }
 
 
