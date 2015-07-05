@@ -110,6 +110,11 @@ nav {
     opacity: 0;
     filter: alpha(opacity=0); }
 
+.skillssection {
+  color: #78A5A3;
+  font-family: "Cinzel", serif;
+  padding-left: 50px; }
+
 .aboutsection {
   background-color: white;
   color: #D05F5C;
