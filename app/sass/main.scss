@@ -69,6 +69,17 @@ nav {
   }
 }
 
+.portfolio li {
+  //border: 1px solid $gray;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.portfolio img {
+  object-fit: fill;
+  padding: 50px;
+}
+
 .aboutsection {
   background-color: white;
   color: $coral;
