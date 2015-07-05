@@ -60,25 +60,79 @@ nav {
 .worksection {
   background-color: white;
   color: $peach;
-  padding-left: 50px;
+  padding: 25px;
   font-family: $headerFont;
-
-  p {
-    color: white;
-    font-family: $roboto;
-  }
 }
 
 .portfolio li {
-  //border: 1px solid $gray;
-  border-radius: 5px;
   overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-out;
+  background: rgba(255,255,255,0.3);
 }
 
 .portfolio img {
   object-fit: fill;
   padding: 50px;
+  display: block;
+  vertical-align: middle;
+  transition: all 0.2s ease;
+  opacity: 0.3;
 }
+
+ .text {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  z-index: 20;
+  bottom: 0;
+  left: 10%;
+  right: 0;
+  width: 80%;
+  padding: 0 10%;
+  margin: 0;
+  transition: all 0.3s ease;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.portfolio h2 {
+  color: $gray;
+  border-bottom: 2px solid $gray;
+  font-size: 30px;
+}
+
+.portfolio p {
+  color: $gray;
+  font-size: 18px;
+  font-family: $headerFont;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: $gray;
+  transition: opacity 0.15s ease-out;
+  backface-visibility: hidden;
+  }
+
+  .portfolio li:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    img {
+      transform: scale(1.2);
+      opacity: 1.0;
+    }
+
+    .text {
+      opacity: 0;
+      filter: alpha(opacity=0);
+    }
+  }
+
 
 .aboutsection {
   background-color: white;
