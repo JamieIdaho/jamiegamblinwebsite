@@ -26,9 +26,8 @@ nav {
   color: white;
   font-family: "Cinzel", serif;
   font-size: 40px;
-  padding-left: 15px;
+  padding-left: 50px;
   display: block;
-  margin-bottom: 15px;
   display: inline-block;
   text-shadow: 3px 3px 5px #43485B;
   margin-top: 0;
@@ -113,12 +112,14 @@ nav {
 .skillssection {
   color: #78A5A3;
   font-family: "Cinzel", serif;
-  padding-left: 150px; }
+  padding-left: 150px;
+  margin-bottom: 50px; }
 
 .skillsh2 {
   font-family: "Cinzel", serif;
   color: #78A5A3;
-  margin-left: 50px; }
+  margin-left: 50px;
+  margin-bottom: 75px; }
 
 .thing-container {
   height: 200px;

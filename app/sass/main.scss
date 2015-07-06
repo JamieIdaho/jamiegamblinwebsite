@@ -36,9 +36,8 @@ nav {
   color: white;
   font-family: $headerFont;
   font-size: 40px;
-  padding-left: 15px;
+  padding-left: 50px;
   display: block;
-  margin-bottom: 15px;
   display: inline-block;
   text-shadow: 3px 3px 5px $gray;
   margin-top: 0;
@@ -137,12 +136,14 @@ nav {
   color: $bluegreen;
   font-family: $headerFont;
   padding-left: 150px;
+  margin-bottom: 50px;
 }
 
 .skillsh2 {
   font-family: $headerFont;
   color: $bluegreen;
   margin-left: 50px;
+  margin-bottom: 75px;
 }
 
 .thing-container {
