@@ -136,7 +136,49 @@ nav {
 .skillssection {
   color: $bluegreen;
   font-family: $headerFont;
-  padding-left: 50px;
+  padding-left: 150px;
+}
+
+.skillsh2 {
+  font-family: $headerFont;
+  color: $bluegreen;
+  margin-left: 50px;
+}
+
+.thing-container {
+  height: 200px;
+  perspective: 600;
+  position: relative;
+  width: 200px;
+  @include span-columns(4);
+}
+.thing {
+  height: 200px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 200px;
+}
+.thing:hover {
+  transform: rotateY(180deg);
+
+}
+.thing .foo {
+  backface-visibility: hidden;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+  overflow: hidden;
+
+}
+.thing .back {
+  transform: rotateY(180deg);
+  background: $gray;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 

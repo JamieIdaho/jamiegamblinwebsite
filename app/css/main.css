@@ -113,7 +113,50 @@ nav {
 .skillssection {
   color: #78A5A3;
   font-family: "Cinzel", serif;
-  padding-left: 50px; }
+  padding-left: 150px; }
+
+.skillsh2 {
+  font-family: "Cinzel", serif;
+  color: #78A5A3;
+  margin-left: 50px; }
+
+.thing-container {
+  height: 200px;
+  perspective: 600;
+  position: relative;
+  width: 200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .thing-container:last-child {
+    margin-right: 0; }
+
+.thing {
+  height: 200px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 200px; }
+
+.thing:hover {
+  transform: rotateY(180deg); }
+
+.thing .foo {
+  backface-visibility: hidden;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+  overflow: hidden; }
+
+.thing .back {
+  transform: rotateY(180deg);
+  background: #43485B;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 5px;
+  font-size: 18px; }
 
 .aboutsection {
   background-color: white;
