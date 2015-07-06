@@ -8,10 +8,13 @@ $coral: #D05F5C;
 $peach: #DAA766;
 $bluegreen: #78A5A3;
 $gray: #43485B;
+$pink: #D91A73;
+$darkblue: #0476D9;
+$lightblue: #57D6F2;
 
 
 nav {
-    background-color: $bluegreen;
+    background-color: $pink;
     font-family: $headerFont;
     font-size: 30px;
   a {
@@ -58,8 +61,8 @@ nav {
 
 .worksection {
   background-color: white;
-  color: $peach;
-  padding: 25px;
+  color: $pink;
+  padding: 50px;
   font-family: $headerFont;
 }
 
@@ -133,7 +136,7 @@ nav {
   }
 
 .skillssection {
-  color: $bluegreen;
+  color: $pink;
   font-family: $headerFont;
   padding-left: 150px;
   margin-bottom: 50px;
@@ -141,7 +144,7 @@ nav {
 
 .skillsh2 {
   font-family: $headerFont;
-  color: $bluegreen;
+  color: $pink;
   margin-left: 50px;
   margin-bottom: 75px;
 }
@@ -185,7 +188,7 @@ nav {
 
 .aboutsection {
   background-color: white;
-  color: $coral;
+  color: $pink;
   padding-left: 50px;
   font-family: $headerFont;
 }
@@ -253,7 +256,7 @@ nav {
     position: absolute;
     font-family: FontAwesome;
     content: '\f003';
-    color: $coral;
+    color: $pink;
     left: 0;
     font-size: 25px;
   }
@@ -269,7 +272,7 @@ nav {
     position: absolute;
     font-family: FontAwesome;
     content: '\f113';
-    color: $coral;
+    color: $pink;
     left: 0;
     font-size: 25px;
   }
@@ -285,7 +288,7 @@ nav {
     position: absolute;
     font-family: FontAwesome;
     content: '\f08c';
-    color: $coral;
+    color: $pink;
     left: 0;
     font-size: 25px;
   }
@@ -301,7 +304,7 @@ nav {
     position: absolute;
     font-family: FontAwesome;
     content: '\f099';
-    color: $coral;
+    color: $pink;
     left: 0;
     font-size: 25px;
   }
@@ -316,7 +319,7 @@ nav {
     position: absolute;
     font-family: FontAwesome;
     content: '\f23a';
-    color: $coral;
+    color: $pink;
     left: 0;
     font-size: 25px;
   }

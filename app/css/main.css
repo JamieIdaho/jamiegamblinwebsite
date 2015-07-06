@@ -7,7 +7,7 @@ html {
   box-sizing: inherit; }
 
 nav {
-  background-color: #78A5A3;
+  background-color: #D91A73;
   font-family: "Cinzel", serif;
   font-size: 30px; }
   nav a {
@@ -46,8 +46,8 @@ nav {
 
 .worksection {
   background-color: white;
-  color: #DAA766;
-  padding: 25px;
+  color: #D91A73;
+  padding: 50px;
   font-family: "Cinzel", serif; }
 
 .portfolio li {
@@ -110,14 +110,14 @@ nav {
     filter: alpha(opacity=0); }
 
 .skillssection {
-  color: #78A5A3;
+  color: #D91A73;
   font-family: "Cinzel", serif;
   padding-left: 150px;
   margin-bottom: 50px; }
 
 .skillsh2 {
   font-family: "Cinzel", serif;
-  color: #78A5A3;
+  color: #D91A73;
   margin-left: 50px;
   margin-bottom: 75px; }
 
@@ -161,7 +161,7 @@ nav {
 
 .aboutsection {
   background-color: white;
-  color: #D05F5C;
+  color: #D91A73;
   padding-left: 50px;
   font-family: "Cinzel", serif; }
 
@@ -229,7 +229,7 @@ nav {
     position: absolute;
     font-family: FontAwesome;
     content: '\f003';
-    color: #D05F5C;
+    color: #D91A73;
     left: 0;
     font-size: 25px; }
   .contactText .github {
@@ -241,7 +241,7 @@ nav {
     position: absolute;
     font-family: FontAwesome;
     content: '\f113';
-    color: #D05F5C;
+    color: #D91A73;
     left: 0;
     font-size: 25px; }
   .contactText .linkedin {
@@ -253,7 +253,7 @@ nav {
     position: absolute;
     font-family: FontAwesome;
     content: '\f08c';
-    color: #D05F5C;
+    color: #D91A73;
     left: 0;
     font-size: 25px; }
   .contactText .twitter {
@@ -265,7 +265,7 @@ nav {
     position: absolute;
     font-family: FontAwesome;
     content: '\f099';
-    color: #D05F5C;
+    color: #D91A73;
     left: 0;
     font-size: 25px; }
   .contactText .blog {
@@ -276,7 +276,7 @@ nav {
     position: absolute;
     font-family: FontAwesome;
     content: '\f23a';
-    color: #D05F5C;
+    color: #D91A73;
     left: 0;
     font-size: 25px; }
 
