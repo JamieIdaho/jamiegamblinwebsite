@@ -13,6 +13,11 @@ $darkblue: #0476D9;
 $lightblue: #57D6F2;
 
 
+body .container {
+  max-width: initial;
+}
+
+
 nav {
     background-color: $pink;
     font-family: $headerFont;

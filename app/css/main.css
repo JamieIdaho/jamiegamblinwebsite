@@ -6,6 +6,9 @@ html {
 *::before {
   box-sizing: inherit; }
 
+body .container {
+  max-width: initial; }
+
 nav {
   background-color: #D91A73;
   font-family: "Cinzel", serif;
