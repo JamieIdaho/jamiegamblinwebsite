@@ -297,6 +297,9 @@ footer {
   color: white;
   padding: 25px; }
 
+.modal {
+  max-height: 85%; }
+
 .modal h3 {
   background-color: #D91A73;
   border-radius: 5px;
