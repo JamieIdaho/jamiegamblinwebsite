@@ -175,13 +175,7 @@ nav {
 
 .imageBorder {
   display: inline-block;
-  float: left;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%; }
-  .imageBorder:last-child {
-    margin-right: 0; }
+  float: left; }
 
 .imageBorder img {
   object-fit: cover;
@@ -189,21 +183,12 @@ nav {
 
 .aboutInfo {
   font-family: "Roboto", sans-serif;
-  display: inline-block;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 74.41059%; }
-  .aboutInfo:last-child {
-    margin-right: 0; }
+  display: inline-block; }
   .aboutInfo p {
-    float: left;
-    width: 65%;
     margin-top: 50px; }
 
-.aboutInfo img {
+.kids img {
   object-fit: cover;
-  float: right;
   zoom: 125%;
   margin-right: 25px; }
 
