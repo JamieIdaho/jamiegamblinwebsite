@@ -170,6 +170,7 @@ nav {
   position: relative;
   width: 200px;
   @include span-columns(4);
+  cursor: pointer;
 }
 .thing {
   height: 200px;

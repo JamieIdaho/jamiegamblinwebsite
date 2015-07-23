@@ -140,7 +140,8 @@ nav {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 31.76157%;
+  cursor: pointer; }
   .thing-container:last-child {
     margin-right: 0; }
 
