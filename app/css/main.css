@@ -296,3 +296,30 @@ footer {
   background-color: #43485B;
   color: white;
   padding: 25px; }
+
+.modal h3 {
+  background-color: #D91A73;
+  border-radius: 5px;
+  color: white;
+  font-family: "Cinzel", serif; }
+
+.modalimg {
+  margin: 50px auto;
+  text-align: center;
+  cursor: pointer; }
+
+.modalimg img:hover {
+  transform: scale(2);
+  transition: all 0.4s ease; }
+
+table {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 35px; }
+
+.btn-flat {
+  color: white;
+  background-color: #43485B; }
+
+.modal-footer .modal-action {
+  margin-right: 25px; }

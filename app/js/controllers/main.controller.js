@@ -9,6 +9,7 @@
 
         setTimeout( function () {
         $('.parallax').parallax();
+        $('.modal-trigger').leanModal();
         }, 0);
 
         $("#home").click(function() {
